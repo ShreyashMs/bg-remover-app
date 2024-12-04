@@ -17,7 +17,7 @@ export default function Navbar() {
   return (
     <div className="flex items-center justify-between mx-4 my-3 lg:mx-44">
       <Link to={"/"}>
-        <img className=" w-32 sm:w-44" src={assets.logo} alt="logo" />
+        <img className=" w-20  sm:w-20" src={assets.logo} alt="logo" />
       </Link>
       {isSignedIn ? (
         <div className="flex items-center gap-2 sm:gap-3">

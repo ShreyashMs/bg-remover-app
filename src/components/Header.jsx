@@ -34,8 +34,8 @@ export default function Header() {
         </div>
       </div>
       {/* Right-Side */}
-      <div className="w-full max-w-md">
-        <img src={assets.header_img} />
+      <div className="w-full max-w-md border">
+        <img src={assets.header_img} className="w-80"/>
       </div>
     </div>
   );
